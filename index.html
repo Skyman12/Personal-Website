@@ -31,7 +31,7 @@
 
 </head>
 
-<body id="page-top" class="index">
+<body id="page-top" class="index" onscroll="myFunction()">
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top" style= "font-size: 1em">
@@ -60,13 +60,13 @@
                         <a href="#experience">Experience</a>
                     </li>
 					<li class="page-scroll">
-                        <a href="#projects">Projects</a>
-                    </li>
-					<li class="page-scroll">
                         <a href="#extra">Extra</a>
                     </li>
 					<li class="page-scroll">
                         <a href="#intrests">Intrests</a>
+                    </li>
+					<li class="page-scroll">
+                        <a href="#projects">Projects</a>
                     </li>
 					<li class="page-scroll">
                         <a href="#languages">Languages</a>
@@ -114,14 +114,16 @@
             </div>
             <div class="row">
             <div class="col-md-6">
-                <img class="img-circle img-responsive img-center" src="http://placehold.it/300x300" alt="" >
-                <h2>Marketing Box #1</h2>
-                <p>These marketing boxes are a great place to put some information. These can contain summaries of what the company does, promotional information, or anything else that is relevant to the company. These will usually be below-the-fold.</p>
+                <img class="img-circle img-responsive img-center" src="img/hs_picture.jpg" alt="" >
+                <h2>Maple Grove Senior High</h2>
+                <p>2009 - 2013</p>
+				<p>ACT: 31 </p>
             </div>
             <div class="col-md-6">
-                <img class="img-circle img-responsive img-center" src="http://placehold.it/300x300" alt="">
-                <h2>Marketing Box #2</h2>
-                <p>The images are set to be circular and responsive. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                <img class="img-circle img-responsive img-center" src="img/iowa_state_picture.jpg" alt="">
+                <h2>Iowa State Univserity</h2>
+				<p> I am currently a Senior in Software Engineering. I will be graduating in the Spring of 2017.<p>
+				<p> GPA: 3.70
             </div>
         </div>
         <!-- /.row -->
@@ -138,39 +140,109 @@
                 </div>
             </div>
 			<!-- First Featurette -->
-        <div class="featurette" id="about">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500" style = "width: inherit">
+        <div class="featurette">
+            <img class="featurette-image img-circle img-responsive pull-right" src="img/renovo_software.jpg" style = "width: inherit">
             <h2 class="text-muted">
-                <span class="text-muted">Will Seal the Deal.</span>
+                <span class="text-muted">Renovo Software</span>
             </h2>
-            <p class="lead" style= "padding-bottom: 330px">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+			<p> Summers of 2013 and 2014 </p>
+            <p class="lead" style= "padding-bottom: 330px">I spent the summers after both my Senior Year of High School and my Freshmen Year of College working as a QA Intern. I was able to get hands on experience in testing large scale applications. My responsibilities included both manual and automated testing, mainly using jUnit.</p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Second Featurette -->
-        <div class="featurette" id="services">
-            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500" style = "width: inherit">
+        <div class="featurette">
+            <img class="featurette-image img-circle img-responsive pull-left" src="img/workiva.jpg" style = "width: inherit">
             <h2 class="text-muted">
-                <span class="text-muted">Will Seal the Deal.</span>
+                <span class="text-muted">Workiva</span>
             </h2>
-            <p class="lead" style= "padding-bottom: 330px">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+			<p> Summer of 2015 </p>
+            <p class="lead" style= "padding-bottom: 330px">I spent the summer after my Sophomore year of College working as a Software Engineering Intern. At Workiva, I was able to work in web development, mainly using Dart. I was assigned to the datatables team, which was in charge of creating an application similar to Microsoft Excel. I was responsible for implementing keyboard shortcuts, testing and fixing browser compatibility issues, and both designing and implemeting the UI framework for the font and value formatting in the application.</p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Third Featurette -->
-        <div class="featurette" id="contact">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500" style = "width: inherit">
+        <div class="featurette">
+            <img class="featurette-image img-circle img-responsive pull-right" src="img/s&p.jpg" style = "width: inherit">
             <h2 class="text-muted">
-                <span class="text-muted">Will Seal the Deal.</span>
+                <span class="text-muted">S&amp;P Global Market Intelligence</span>
             </h2>
-            <p class="lead" style= "padding-bottom: 330px">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+			<p> Summer of 2016 </p>
+            <p class="lead" style= "padding-bottom: 330px">I will be spending my summer of 2016 on Wallstreet in NYC, working for S&amp;P Global Market Intelligence as a Software Engineering Intern. Although I had many other internship offers from more traditional software engineering employers, spending a summer working and learning in NYC was an opportunity that I couldn't pass up. </p>
         </div>
         </div>
     </section>
-
-    <!-- Projects Section -->
+	
+	<!-- Extra Section -->
+    <section class="danger"  id="extra">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>What else do I do?</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+			<div class="row">
+                <div class="col-md-6">
+                    <div class="team-member">
+						<img class="img-responsive img-hover" src="img/lamp.jpg" alt="">
+                        <h4>Laboratory for Molecular Programming</h4>
+                        <p class="text-muted">Lead Designer</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="team-member">
+						<img class="img-responsive img-hover" src="img/data_structures.jpg" alt="">
+                        <h4>COMS 228 Teacher Assistant</h4>
+                        <p class="text-muted">Lead Marketer</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="team-member">
+                        <img class="img-responsive img-hover" src="img/web_dev.jpg" alt="">
+                        <h4>Web Dev Club Founder</h4>
+                        <p class="text-muted">Lead Developer</p>
+                    </div>
+                </div>
+				<div class="col-md-6">
+                    <div class="team-member">
+                        <img class="img-responsive img-hover" src="img/football.jpg" alt="">
+                        <h4>HS Football Coach</h4>
+                        <p class="text-muted">Lead Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	<!-- Intrests Section -->
+    <section class="info" id="intrests">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>What do I enjoy?</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="#" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Download Theme
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	<!-- Projects Section -->
     <section class="success" id="projects">
         <div class="container">
 		
@@ -252,90 +324,6 @@
         </div>
     </section>
 	
-	<!-- Extra Section -->
-    <section class="danger"  id="extra">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>What else do I do?</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-			<div class="row">
-                <div class="col-md-6">
-                    <div class="team-member">
-						<img class="img-responsive img-hover" src="http://placehold.it/700x400" alt="">
-                        <h4>Kay Garland</h4>
-                        <p class="text-muted">Lead Designer</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="team-member">
-						<img class="img-responsive img-hover" src="http://placehold.it/700x400" alt="">
-                        <h4>Larry Parker</h4>
-                        <p class="text-muted">Lead Marketer</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="team-member">
-                        <img class="img-responsive img-hover" src="http://placehold.it/700x400" alt="">
-                        <h4>Diana Pertersen</h4>
-                        <p class="text-muted">Lead Developer</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-	
-	<!-- Intrests Section -->
-    <section class="info" id="intrests">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>What do I enjoy?</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-	
 	<!-- Languages Section -->
     <section id="languages">
         <div class="container">
@@ -366,7 +354,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>What helps me create things?</h2>
+                    <h2>What tools do I use?</h2>
                     <hr class="star-light">
                 </div>
             </div>
@@ -380,6 +368,101 @@
                 <div class="col-lg-12 text-center">
                     <h2>What have I done up till now?</h2>
                     <hr class="star-light">
+                </div>
+            </div>
+        </div>
+		
+		<div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">Iowa State Dean's List</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted"> I have earned this award 5 out of 6 semsters. This shows that I consistantly put in the time and effort required to earn great grades.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">High School All Conference Quarterback</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Since no one ever believes me, here are links to prove it.</p>
+									<a href="http://www.mnfootballhub.com/page/show/621245-2012-leaders">State Leaders</a>
+									<br>
+									<a href="http://hsfb.crimsonfootball.com/page/show/625571-passing">School Records</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">Crimson Award Winner</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Recieved this award my senior year of football. Was given to the player who best represented "The Crimson Way" both on and off the field.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">Iowa State Honor's Program</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Selected as 1 of roughtly 400 students to join the Iowa State Honors Program as a Freshmen. This has given me opportunities to take special honors course with smaller class sizes, as well as allowing me to network with other professionally minded college students.</p>
+                                </div>
+                            </div>
+                        </li>
+						<li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">309 Best Project Award</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Recieved this award my Sophomore year of college. Our project was selected as the best - by students and faculity - from roughly 40 groups. Our project was a space flight simulation using the Oculus Rift. More details on this project can be viewed under the Projects section.</p>
+                                </div>
+                            </div>
+                        </li>
+						<li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">Scholarships</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Earned both the Presidental Scholarship and a Liberal Arts and Sciences Scholarship when chosing to attend Iowa State University.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>And much more to come...
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -717,7 +800,11 @@
             </div>
         </div>
     </div>
-
+<script>
+		function myFunction() {
+		document.activeElement.blur();
+		}
+	</script>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
